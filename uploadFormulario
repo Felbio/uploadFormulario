@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        
+        
+    </head>
+    <body>
+        <main>
+            <h1>Aula 40 - Formulários</h1>
+            <form action="#" method="post" name="formulario_simples_nome"
+            id="formulario_simples">
+            <label for="nome" >Nome</label>
+            <input type="text" maxlength="140" minlength="5" 
+            name="caixa_de_texto" id="nome" placeholder="nome">
+            <br>
+            <br>
+            
+           <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" placeholder="Sobrenome" maxlength="140">
+             <input type="submit" name="submit">
+            </form>
+            <section id="resultado">
+               
+               
+               
+               <table>
+                   <thead>
+                       <th>Elemento do Formulário</th>
+                       <th>Valor</th>
+                   </thead>
+                   <tbody>
+                       <?php $method = formProcessing();?>
+                   </tbody>
+               </table>
+                
+            </section>
+            
+            
+            
+            
+        </main>
+    </body>
+    
+    
+    
+     
+</html>
